@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Product Data Table">
+        <c-salesforce-codex-data-table
+            key-field="Id" 
+            data={productData} 
+            columns={columns}
+            hide-checkbox-column>
+        </c-salesforce-codex-data-table>
+    </lightning-card>
+</template>
